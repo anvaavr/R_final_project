@@ -18,7 +18,7 @@ library(readr)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
-df <- read_csv("C://Users//Amit//Downloads//Data11.csv")
+df <- read_csv("C://Users//Amit//Downloads//Data11.csv")  # here put file location 
 
 df2 <- df %>%  dplyr::select(IMPACT, SUBSTANCE, MEANINGFUL_COMPARISON, ORIGINALITY,RECOMMENDATION, 
                              SOUNDNESS_CORRECTNESS, CLARITY, REVIEWER_CONFIDENCE, APPROPRIATENESS)
